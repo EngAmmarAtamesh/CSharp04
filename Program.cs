@@ -44,6 +44,19 @@
 
             #endregion
 
+
+            #region Question 4
+
+            int index = 0;
+
+            while (index < books.Length)
+            {
+                Console.WriteLine(books[index]);
+                index++;
+            }
+
+            #endregion
+
         }
     }
 }
