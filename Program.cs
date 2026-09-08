@@ -1,4 +1,6 @@
-﻿namespace C_Basic04
+﻿using System.Text;
+
+namespace C_Basic04
 {
     internal class Program
     {
@@ -123,6 +125,19 @@
             PrintFirstBook(books);
 
             #endregion
+
+
+            #region Question string 1
+
+            string title = "clean code";
+
+            string upperTitle = title.ToUpper();
+
+            Console.WriteLine(title);
+            Console.WriteLine(upperTitle);
+
+            #endregion
+
         }
     }
 }
