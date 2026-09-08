@@ -146,6 +146,17 @@ namespace C_Basic04
             Console.WriteLine(ReferenceEquals(title1, title2));
 
             #endregion
+
+            #region Question string 3
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("Book List");
+            sb.Append(" - Updated");
+
+            Console.WriteLine(sb);
+
+            #endregion
         }
     }
 }
