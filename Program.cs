@@ -192,6 +192,17 @@ namespace C_Basic04
             Console.WriteLine(sentence2);
 
             #endregion
+
+            #region Question 7
+
+            string title5 = "Clean Code";
+            int pages3 = 464;
+
+            string sentence3 = string.Format("Book: {0}, Pages: {1}", title5, pages3);
+
+            Console.WriteLine(sentence3);
+
+            #endregion
         }
     }
 }
