@@ -138,6 +138,14 @@ namespace C_Basic04
 
             #endregion
 
+            #region Question string 2
+
+            string title1 = "Clean Code";
+            string title2 = "Clean Code";
+
+            Console.WriteLine(ReferenceEquals(title1, title2));
+
+            #endregion
         }
     }
 }
