@@ -107,6 +107,22 @@
 
             #endregion
 
+
+            #region Question 9
+
+            static void PrintFirstBook(string[] books)
+            {
+                if (books.Length == 0)
+                {
+                    return;
+                }
+
+                Console.WriteLine(books[0]);
+            }
+
+            PrintFirstBook(books);
+
+            #endregion
         }
     }
 }
