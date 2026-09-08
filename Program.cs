@@ -157,6 +157,19 @@ namespace C_Basic04
             Console.WriteLine(sb);
 
             #endregion
+
+            #region Question string 4
+
+            StringBuilder sb2 = new StringBuilder();
+
+            sb2.Append("Book List");
+            sb2.Append(" - Updated");
+
+            sb2.Replace("Book List", "Library");
+
+            Console.WriteLine(sb2);
+
+            #endregion
         }
     }
 }
