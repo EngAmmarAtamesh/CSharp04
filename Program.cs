@@ -79,7 +79,19 @@
 
             #endregion
 
+            #region Question 7
 
+            foreach (string book in books)
+            {
+                if (book == "Refactoring")
+                {
+                    break;
+                }
+
+                Console.WriteLine(book);
+            }
+
+            #endregion
         }
     }
 }
